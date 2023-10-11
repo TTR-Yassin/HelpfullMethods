@@ -42,91 +42,10 @@ namespace Aucation.Classess
         public static List<string> GetIcons()
         {
             List<string> icons = new List<string>();
-            icons.Add("A1-SE-Add.svg");
-            icons.Add("A11-SE-Previus.svg");
-            icons.Add("A12-SE-Next.svg");
-            icons.Add("A13-SE-Day-Mode.svg");
-            icons.Add("A14-SE-Nigth-Mode.svg");
-            icons.Add("A15-SE-Day-Nigth-Mode.svg");
-            icons.Add("A17-SE-Air-Conditioning.svg");
-            icons.Add("A18-SE-Cold-Cooling.svg");
-            icons.Add("A19-SE-Hot-Heating.svg");
-            icons.Add("A3-SE-Search.svg");
-            icons.Add("A4-SE-Zoom-.svg");
-            icons.Add("A5-SE-Zoom-.svg");
-            icons.Add("A8-SE-Home-Page.svg");
-            icons.Add("B1-SE-Information.svg");
-            icons.Add("B18-SE-Pointer-Down.svg");
-            icons.Add("B19-SE-Arrow-Left.svg");
-            icons.Add("B20-SE-Arrow-Rotation.svg");
-            icons.Add("C16-SE-Chat.svg");
-            icons.Add("C17-SE-Discussion.svg");
-            icons.Add("D10-SE-Polarity-Negative-Minus.svg");
-            icons.Add("D11-SE-Polarity-Positive-Plus.svg");
-            icons.Add("D15-SE-Paper.svg");
-            icons.Add("D16-SE-Book.svg");
-            icons.Add("D17-SE-Open-Book.svg");
-            icons.Add("D8-SE-Eco-Mode-Off.svg");
-            icons.Add("D9-SE-Eco-Mode-On.svg");
-            icons.Add("E1-SE-Keyboard.svg");
-            icons.Add("E10-SE-Print.svg");
-            icons.Add("E11-SE-Fax.svg");
-            icons.Add("E12-SE-Embedded-HMI.svg");
-            icons.Add("E15-SE-Loudspeaker.svg");
-            icons.Add("E16-SE-Loudspeaker-Off.svg");
-            icons.Add("E17-SE-Loudspeaker-On.svg");
-            icons.Add("E27-SE-Dashboard.svg");
-            icons.Add("E3-SE-FlatScreen.svg");
-            icons.Add("E4-SE-Notebook.svg");
-            icons.Add("E5-SE-Laptop.svg");
-            icons.Add("E6-SE-PC.svg");
-            icons.Add("E7-SE-MobileDivice.svg");
-            icons.Add("E8-SE-Smartphone.svg");
-            icons.Add("E9-SE-Tablet.svg");
-            icons.Add("F15-SE-Continued.svg");
-            icons.Add("F16-SE-Fast-Run.svg");
-            icons.Add("F17-SE-Normal-Run-Next.svg");
-            icons.Add("F23-SE-On-Off.svg");
-            icons.Add("F24-SE-Off.svg");
-            icons.Add("F25-SE-On.svg");
-            icons.Add("F26-SE-Standby.svg");
-            icons.Add("F4-SE-Contact-Technician.svg");
-            icons.Add("F6-SE-Nurse-Call.svg");
-            icons.Add("F7-SE-First-Aid.svg");
-            icons.Add("G1-SE--History.svg");
-            icons.Add("G19-SE-Electronic-Surveillance.svg");
-            icons.Add("G2-SE-Light.svg");
-            icons.Add("G20-SE-Electronic-Surveillance-Multiple.svg");
-            icons.Add("G21-SE-Home-Unlocking.svg");
-            icons.Add("G21-SE-Measurement-Metering.svg");
-            icons.Add("G22-SE-Locking-Open.svg");
-            icons.Add("G23-SE-Locking-Close.svg");
-            icons.Add("G24-SE-Bell.svg");
-            icons.Add("G25-SE-Bell-Off.svg");
-            icons.Add("G26-SE-Bell-On.svg");
-            icons.Add("G27-SE-House-Bell.svg");
-            icons.Add("G3-SE-Lighting.svg");
-            icons.Add("G4-SE-Lighting-Low-Intensity.svg");
-            icons.Add("H1-SE-Temperature.svg");
-            icons.Add("H2-SE-Set-Temperature.svg");
-            icons.Add("H3-SE-CelsiusTemperature.svg");
-            icons.Add("H4-SE-FarenheitTemperature.svg");
-            icons.Add("H5-SE-Cold.svg");
-            icons.Add("H6-SE-Hot.svg");
-            icons.Add("H7-SE-Thermostate.svg");
-            icons.Add("I5-SE-Ventilation-High.svg");
-            icons.Add("I6-SE-Ventilation-Low.svg");
-            icons.Add("I7-SE-Chronometer.svg");
-            icons.Add("I8-SE-Programmable-Timer.svg");
-            icons.Add("J10-SE-Armchair.svg");
-            icons.Add("J12-SE-Cup.svg");
-            icons.Add("J15-SE-Ceiling-Fan.svg");
-            icons.Add("J16-SE-Air-Conditioner.svg");
-            icons.Add("J17-SE-Iron.svg");
-            icons.Add("J18-SE-Gaming.svg");
-            icons.Add("J3-SE-FMRadio.svg");
-            icons.Add("J4-SE-Maintenance.svg");
-            icons.Add("J5-SE-Maintenance-Scheduled.svg");
+            icons.Add("iconname.svg");
+            icons.Add("iconname.svg");
+	    icons.Add("iconname.svg");
+	    icons.Add("iconname.svg");
             return icons;
         }
 
@@ -372,7 +291,7 @@ namespace Aucation.Classess
             }
             catch 
             {
-                return "78.111.98.216";
+                return "1.1.1.1";
             }
             
         }
@@ -462,53 +381,5 @@ namespace Aucation.Classess
             return date;
         }
 
-        ///// Normal odeme service
-        public static ST_WS_Guvenlik GetST_WS_Guvenlik()
-        {
-            var gnesnesi = new ST_WS_Guvenlik();
-            gnesnesi.CLIENT_CODE = "55658";
-            gnesnesi.CLIENT_USERNAME = "tp10088338";
-            gnesnesi.CLIENT_PASSWORD = "50255b5b168bd212";
-
-            return gnesnesi;
-        }
-
-        public static KartService.ST_WS_Guvenlik getkartst_ws_guvenlik()
-        {
-            var gnesnesi = new KartService.ST_WS_Guvenlik();
-            gnesnesi.CLIENT_CODE = 10738;
-            gnesnesi.CLIENT_USERNAME = "test";
-            gnesnesi.CLIENT_PASSWORD = "test";
-
-            return gnesnesi;
-        }
-        public static string GUID = "a1c4abf3-8894-436a-84cb-74c6e0368581";
-        public static string kartnum = "6371507884726219";
-        public static string CLIENT_CODE = "55658";
-
-
-        //// test odeme service
-        //public static ST_WS_Guvenlik GetST_WS_Guvenlik()
-        //{
-        //    var gNesnesi = new ST_WS_Guvenlik();
-        //    gNesnesi.CLIENT_CODE = "10738";
-        //    gNesnesi.CLIENT_USERNAME = "Test";
-        //    gNesnesi.CLIENT_PASSWORD = "Test";
-
-        //    return gNesnesi;
-        //}
-
-        //public static TestKartService.ST_WS_Guvenlik GetKartST_WS_Guvenlik()
-        //{
-        //    var gNesnesi = new TestKartService.ST_WS_Guvenlik();
-        //    gNesnesi.CLIENT_CODE = 10738;
-        //    gNesnesi.CLIENT_USERNAME = "Test";
-        //    gNesnesi.CLIENT_PASSWORD = "Test";
-
-        //    return gNesnesi;
-        //}
-        //public static string GUID = "0c13d406-873b-403b-9c09-a5766840d98c";
-        //public static string KartNum = "6371507884726219";
-        //public static string CLIENT_CODE = "10738";
     }
 }
